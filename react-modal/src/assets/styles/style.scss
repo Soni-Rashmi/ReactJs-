@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+
+  .card, .form-data {
+    border: 1px solid #193D5B;
+    height: 160px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+
+      .icon {
+        display: block;
+        font-size: 65px;
+      }
+    }
+  }
+
+  .active-form, span {
+    display: block;
+    word-break: break-word;
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    display: inline-block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+}
