@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+
+  .card {
+    border: 1px solid #193D5B;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 160px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+
+    span {
+      display: block;
+      word-break: break-word;
+    }
+    .icon {
+      font-size: 40px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+
+    .checked {
+      background-color: #ffffff;
+      border: 1px solid;
+      color: cadetblue;
+      font-size: 35px;
+      position: absolute;
+      right: 30px;
+      top: 15px;
+    }
+  }
+  .clicked {
+    background-color: #eaefef;
+  }
+  .active {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
